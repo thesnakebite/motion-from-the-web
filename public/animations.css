@@ -1,0 +1,3 @@
+.square:hover {
+    animation: party-bump 700ms ease-in-out infinite alternate;
+}
