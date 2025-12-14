@@ -1,0 +1,15 @@
+/* Baseline square */
+.square {
+    width: 120px;
+    height: 120px;
+    background: oklch(0.69 0.18 245.62); /* Laracast blue */
+    border-radius: 0.25rem;
+    transition-duration: 800ms;
+    transition-property: transform, background-color, border-radius;
+
+    &:hover {
+        transform: rotate(45deg);
+        background-color: tomato;
+        border-radius: 2rem;
+    }
+}

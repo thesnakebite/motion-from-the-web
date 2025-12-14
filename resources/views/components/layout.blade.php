@@ -13,8 +13,6 @@
             @endphp
 
         @vite(['resources/css/app.css', $cssPath, $jsPath])
-        <!-- Orden de carga -->
-        <link rel="stylesheet" href="/animations.css" media="(prefers-reduced-motion: no-preference)">
     </head>
     <body>
         {{ $slot }}
