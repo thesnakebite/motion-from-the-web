@@ -1,5 +1,7 @@
 # Dependencies
 node_modules/
+/vendor
+/public/hot
 
 # Build
 dist/
@@ -15,3 +17,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Laravel cache
+/bootstrap/cache/*.php

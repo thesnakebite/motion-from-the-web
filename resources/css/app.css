@@ -12,6 +12,10 @@
 }
 
 @layer base {
+    body {
+        background-color: #f1f5f9;
+    }
+
     .wrapper {
         margin: 40px;
     }
